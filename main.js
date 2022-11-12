@@ -1,6 +1,7 @@
+//2.	Determinar la hipotenusa de un triángulo rectángulo conocidas las longitudes de sus dos catetos. Desarrolle el algoritmo correspondiente. Formula: (HIP = √CATa + √CATb)
 
-//"Desarrolle un algoritmo que realice la sumatoria de los números enteros comprendidos entre el 1 y el 1O, es decir, 1 + 2 + 3 + .... + 1O.//
-
-let resultado= 1+2+3+4+5+6+7+8+9+10;
-alert ('La sumatoria de los números enteros es:' + resultado);
-console.log ('La sumatoria de los números enteros es:' + resultado);
+CatA= prompt ('Ingrese el numero del lado A del triángulo');
+CatB= prompt ('Ingrese el numero del lado B del triángulo');
+let R = Math.hypot(CatA,CatB);
+alert ('La hipotenusa del triángulo es :'+ R);
+console.log ('La hipotenusa del triángulo es :'+R);
